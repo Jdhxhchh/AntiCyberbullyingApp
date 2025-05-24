@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Стиль для підсвічування тексту -->
+    <style name="TextHighlight.Red" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:background">@drawable/red_highlight_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:minHeight">36dp</item>
+    </style>
+
+    <!-- Основні стилі кнопок -->
+    <style name="Widget.AntiCyberbullyingApp.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AntiCyberbullyingApp.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.AntiCyberbullyingApp.Medium</item>
+        <item name="cornerRadius">12dp</item>  <!-- Додано закруглення 12dp -->
+    </style>
+
+    <!-- Стиль для контурних кнопок -->
+    <style name="Widget.AntiCyberbullyingApp.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="cornerRadius">12dp</item>  <!-- Додано закруглення 12dp -->
+    </style>
+
+    <!-- Стилі для форм -->
+    <style name="ShapeAppearance.AntiCyberbullyingApp.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>  <!-- Збільшено до 12dp -->
+    </style>
+
+    <style name="ShapeAppearance.AntiCyberbullyingApp.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>  <!-- Збільшено до 8dp -->
+    </style>
+
+    <!-- Стиль для відключення overscroll -->
+    <style name="ScrollBehavior.NoOverScroll" parent="">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <!-- Текстовий стиль для кнопок -->
+    <style name="TextAppearance.AntiCyberbullyingApp.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="NoOverScroll">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:fadeScrollbars">true</item>
+    </style>
+
+    <!-- Новий стиль для основних кнопок -->
+    <style name="PrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/purple_700</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingVertical">12dp</item>
+    </style>
+
+    <!-- Стиль для кнопки перевірки -->
+    <style name="CheckButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/purple_500</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize12" parent="">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+</resources>

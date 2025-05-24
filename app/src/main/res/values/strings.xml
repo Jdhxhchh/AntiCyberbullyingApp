@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">AntiCyberbullyingApp</string>
+
+    <!-- Головний екран -->
+    <string name="input_hint">Введіть текст для перевірки</string>
+    <string name="check_button">ПЕРЕВІРИТИ НА КІБЕРБУЛІНГ</string>
+    <string name="check_for_cyberbullying">Перевірити на кібербулінг</string>
+    <string name="no_bad_words_found">✅ Текст без образливих слів</string>
+    <string name="input_hint_secondary">Текст повідомлення...</string>
+
+
+    <!-- Емоційний термометр -->
+    <string name="emotional_thermometer">Відсоток образливих слів</string>
+    <string name="low_risk">Низький</string>
+    <string name="medium_risk">Середній</string>
+    <string name="high_risk">Високий</string>
+    <string name="offensive_words_percentage">%1$d%% образливих слів</string>
+    <string name="low_risk_description">Низький відсоток образливих слів</string>
+    <string name="medium_risk_description">Середній відсоток образливих слів</string>
+    <string name="high_risk_description">Високий відсоток образливих слів</string>
+
+    <!-- Література -->
+    <string name="literature_title">Література</string>
+    <string name="literature_button">ЛІТЕРАТУРА</string>
+    <string name="search_hint">Пошук матеріалів\u2026</string>
+
+    <!-- Гаряча лінія -->
+    <string name="emergency_title">Гаряча лінія</string>
+    <string name="emergency_button">ГАРЯЧА ЛІНІЯ</string>
+    <string name="what_to_do_title">Що робити?</string>
+    <string name="what_to_do_content">1. Не відповідайте образникам.\n2. Зробіть скріншоти.\n3. Зверніться до дорослих або спеціалістів.</string>
+    <string name="hotline_title">Гаряча лінія</string>
+    <string name="emergency_number">Екстренний номер: 112</string>
+    <string name="contacts_title">Контакти організацій</string>
+    <string name="child_helpline">Дитячий телефон довіри</string>
+    <string name="child_helpline_number">116 111</string>
+    <string name="cyberbullying_helpline">Лінія підтримки з кібербулінгу</string>
+    <string name="cyberbullying_helpline_number">0 800 500 225</string>
+
+    <!-- Інші елементи -->
+    <string name="chatbot_button">ЧАТ-БОТ ДОПОМОГИ</string>
+    <string name="test_button">Тест на агресивність</string>
+    <string name="test_title">Тест на агресивність</string>
+    <string name="test_aggression_title">Тест на агресивність</string>
+    <string name="emergency_shortcut_short">Допомога</string>
+    <string name="emergency_shortcut">Emergency</string>
+    <string name="emergency_shortcut_long">Emergency Help</string>
+    <string name="settings_title">Додатково:</string>
+    <string name="recycler_view_description">Список навчальних матеріалів про кібербулінг</string>
+
+
+    <string name="analyzer_init_error">Помилка ініціалізації аналізатора</string>
+    <string name="empty_text_warning">Будь ласка, введіть текст для аналізу</string>
+    <string name="analysis_error">Помилка аналізу: %s</string>
+    <string name="unknown_error">невідома помилка</string>
+    <string name="analyzing_text">Аналіз тексту...</string>
+    <string name="bad_words_found">Знайдено образливих слів: %d</string>
+    <string name="high_risk_result">🔴 Виявлено кібербулінг!</string>
+    <string name="medium_risk_result">🟠 Можливий кібербулінг</string>
+    <string name="low_risk_result">🟢 Образ не виявлено</string>
+    <string name="navigation_error">Помилка навігації</string>
+
+
+    <string name="literature_title_1">Кібербулінг – що це та як це зупинити?</string>
+    <string name="literature_source_1">Стаття від UNICEF</string>
+    <string name="literature_title_2">Як протидіяти кібербулінгу</string>
+    <string name="literature_source_2">Відео від Першого каналу</string>
+    <string name="literature_title_3">Поради для батьків</string>
+    <string name="literature_source_3">Стаття від НУШ</string>
+    <string name="literature_loading_error">Помилка завантаження матеріалів</string>
+    <string name="literature_url_error">Не вдалося відкрити посилання</string>
+
+
+    <string name="back">Назад</string>
+    <string name="literature_list_description">Список навчальних матеріалів про кібербулінг</string>
+
+    <string name="literature_open_error">Не вдалося відкрити літературу</string>
+    <string name="emergency_open_error">Не вдалося відкрити гарячу лінію</string>
+
+
+
+    <!-- Множинні форми -->
+    <plurals name="bad_words_found">
+        <item quantity="one">Знайдено %d образливе слово</item>
+        <item quantity="few">Знайдено %d образливих слова</item>
+        <item quantity="many">Знайдено %d образливих слів</item>
+        <item quantity="other">Знайдено %d образливих слів</item>
+    </plurals>
+
+    <plurals name="bad_words_detected">
+        <item quantity="one">%d образливе слово</item>
+        <item quantity="few">%d образливих слова</item>
+        <item quantity="many">%d образливих слів</item>
+        <item quantity="other">%d образливих слів</item>
+    </plurals>
+    <string name="risk_level_label">Рівень ризику</string>
+    <string name="test_open_error_label">Помилка відкриття тесту</string>
+
+    <string name="check_button_desc">Аналіз тексту на кібербулінг</string>
+    <string name="literature_button_desc">Перейти до літератури</string>
+    <string name="emergency_button_desc">Екстрені контакти</string>
+
+
+    <string name="emergency_numbers_title">Гаряча лінія</string>
+    <string name="organizations_title">Контакти організацій</string>
+    <string name="chat_bot">ЧАТ-БОТ ДОПОМОГИ</string>
+    <string name="call">Зателефонувати</string>
+    <string name="back_button_desc">Назад</string>
+    <string name="cyberbullying_support">Лінія підтримки з кібербулінгу</string>
+    <string name="call_action">Зателефонувати</string>
+    <!-- Додайте ці рядки до існуючих -->
+    <string name="emergency_phone">112</string>
+    <string name="child_helpline_phone">116 111</string>
+    <string name="cyberbullying_phone">0 800 500 225</string>
+    <string name="call_now">Зателефонувати зараз</string> <!-- Якщо ще не додано -->
+    <string name="child_helpline_phone_filtered">116111</string> <!-- Без пробілів -->
+    <string name="cyberbullying_phone_filtered">0800500225</string> <!-- Без пробілів -->
+    <string name="literature_item1_title">Кібербулінг – що це та як це зупинити?</string>
+    <string name="literature_item1_source">Стаття від UNICEF</string>
+    <string name="literature_item2_title">Як протидіяти кібербулінгу</string>
+    <string name="literature_item2_source">Відео від Першого каналу</string>
+    <string name="literature_item3_title">Поради для батьків</string>
+    <string name="literature_item3_source">Стаття від НУШ</string>
+    <string name="open_button">Відкрити</string>
+    <string name="literature_no_browser_error">Не знайдено додаток для перегляду</string>
+    <string name="article_icon_desc">Іконка типу статті</string>
+    <string name="open_button_text">Відкрити</string>
+    <string name="literature_description_1">Практичні поради з протидії кібербулінгу для підлітків</string>
+    <string name="literature_description_2">Відео-інструкція з безпеки в інтернеті</string>
+    <string name="literature_description_3">Поради батькам щодо кібербулінгу</string>
+</resources>

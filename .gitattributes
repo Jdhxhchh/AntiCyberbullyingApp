@@ -1,0 +1,1 @@
+app/src/main/assets/models/multilingual-e5-base-v3-onnx-quantized.onnx filter=lfs diff=lfs merge=lfs -text
