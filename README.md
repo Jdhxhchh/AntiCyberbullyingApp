@@ -1,0 +1,50 @@
+
+AntiCyberbullyingApp 
+
+Android-додаток для боротьби з кібербулінгом з використанням AI-моделі для аналізу тексту.
+
+Особливості
+- Детекція образливих повідомлень за допомогою NLP
+- Екстрені контакти
+- Освітні матеріали
+- Інтеграція з ONNX Runtime
+
+Інструкція зі встановлення
+1. Клонуйте репозиторій:
+  
+   git clone https://github.com/Jdhxhchh/AntiCyberbullyingApp.git
+
+2. Завантажте модель (обов'язковий крок):
+   - Завантажте ONNX-модель з [офіційного джерела](https://huggingface.co/BookingCare/multilingual-e5-base-v3-onnx-quantized/tree/main)
+   - Помістіть файл \`multilingual-e5-base-v3-onnx-quantized.onnx\` у папку:
+
+     /app/src/main/assets/models/
+
+3. Відкрийте проект у Android Studio
+4. Зберіть APK-файл або запустіть на емуляторі
+
+ AI-модель
+Для роботи додатку необхідно використовувати попередньо навчену модель:
+- Назва: multilingual-e5-base-v3-onnx-quantized
+- Формат: ONNX
+- Розмір: 265.38 MB
+- Призначення: Векторизація текстів для подальшого аналізу
+Структура проекту
+app/
+└── src/
+    └── main/
+        ├── assets/
+        │   └── models/          # Тут розміщується ONNX-модель
+        ├── java/
+        │   └── com/example/anticyberbullyingapp/
+        │       ├── nlp/         # NLP-обробка
+        │       └── ui/          # UI компоненти
+        └── res/
+            ├── drawable/        # Іконки та графіка
+            ├── layout/          # XML макети
+            └── values/          # Ресурси
+
+
+Важливо!
+- Без ONNX-моделі в зазначеній папці додаток не працюватиме коректно
+- GitHub не підтримує файли >100MB, тому модель потрібно завантажувати окремо
